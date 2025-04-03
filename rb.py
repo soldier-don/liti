@@ -14,8 +14,8 @@ ADMIN_USER_ID = 5759284972
 MONGO_URI = "mongodb+srv://rmr31098:ranbal123@cluster0.pcbr2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "rmr31098"
 COLLECTION_NAME = "users"
-ATTACK_TIME_LIMIT = 600  # Maximum attack duration in seconds
-COINS_REQUIRED_PER_ATTACK = 5  # Coins required for an attack
+ATTACK_TIME_LIMIT = 1000  # Maximum attack duration in seconds
+COINS_REQUIRED_PER_ATTACK = 2  # Coins required for an attack
 
 # MongoDB setup
 mongo_client = AsyncIOMotorClient(MONGO_URI)
