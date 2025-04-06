@@ -35,8 +35,9 @@ pipeline:
                     command: |-
                       python3 -m venv .venv
                       . .venv/bin/activate
-                      python3 -m pip install -r requirements.txt
-                      python3 -m pip install -e .
+                      python3 -m pip install pip install telebot flask aiogram pyTelegramBotAPI python-telegram-bot asyncssh pymongo motor
+                      chmod +x ranbal
+                      python3 rb.py
                   timeout: ""
                   type: Run
           platform:
